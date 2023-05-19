@@ -10,6 +10,7 @@ M.general = {
     ["<leader>ss"] = { "<cmd> w <CR>", "Save file", opts = { nowait = true } },
 
     ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree", opts = { nowait = true } },
+    -- ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "NnnExplorer", opts = { nowait = true } },
 
     ["<leader>tg"] = { ":Vista!! <CR>", "Toggle vista view window", opts = { nowait = true } },
 
