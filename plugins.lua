@@ -127,7 +127,21 @@ local plugins = {
     "liuchengxu/vista.vim",
     event = "BufEnter",
   },
+  
+  -- 文件浏览器
+  {
+    "kevinhwang91/rnvimr",
+    event = "BufEnter",
+  },
 
+  {
+    "luukvbaal/nnn.nvim",
+    event = "BufEnter",
+    config = function()
+     require("nnn").setup()
+    end,
+  },
+  
   -- Debug plugin
   {
     "mfussenegger/nvim-dap",
