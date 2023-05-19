@@ -7,6 +7,11 @@ local highlights = require "custom.highlights"
 M.ui = {
   theme = "onedark",
   theme_toggle = { "onedark", "one_light" },
+  
+  -- nvdash (dashboard)
+  nvdash = {
+    load_on_startup = true,
+  },
 
   hl_override = highlights.override,
   hl_add = highlights.add,
