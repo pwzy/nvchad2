@@ -11,8 +11,14 @@ M.general = {
 
     ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree", opts = { nowait = true } },
     -- ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "NnnExplorer", opts = { nowait = true } },
-
+    -- Vista
     ["<leader>tg"] = { ":Vista!! <CR>", "Toggle vista view window", opts = { nowait = true } },
+    -- Rnvimr
+    ["<leader>rg"] = { ":RnvimrToggle <CR>", "RnvimrToggle", opts = { nowait = true } },
+    -- Telescope
+    ["<leader>cc"] = { ":Telescope commands <CR>", "Telescope commands", opts = { nowait = true } },
+    ["<leader>ck"] = { ":Telescope keymaps <CR>", "Telescope keymaps", opts = { nowait = true } },
+    ["<leader>co"] = { ":Telescope options <CR>", "Telescope options", opts = { nowait = true } },
 
   },
 
