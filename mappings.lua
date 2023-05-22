@@ -19,6 +19,7 @@ M.general = {
     ["<leader>cc"] = { ":Telescope commands <CR>", "Telescope commands", opts = { nowait = true } },
     ["<leader>ck"] = { ":Telescope keymaps <CR>", "Telescope keymaps", opts = { nowait = true } },
     ["<leader>co"] = { ":Telescope vim_options <CR>", "Telescope vim_options", opts = { nowait = true } },
+    ["<leader>ch"] = { ":Telescope help_tags <CR>", "Telescope help_tags", opts = { nowait = true } },
 
   },
 
