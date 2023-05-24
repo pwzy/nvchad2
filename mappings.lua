@@ -1,6 +1,14 @@
 ---@type MappingsTable
 local M = {}
 
+-- In order to disable a default keymap, use
+M.disabled = {
+  n = {
+    -- Disable default cycle through buffers
+    ["<tab>"] = "",
+  }
+}
+
 M.general = {
   n = {
     -- [";"] = { ":", "enter command mode", opts = { nowait = true } },
