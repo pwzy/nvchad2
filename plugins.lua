@@ -142,7 +142,21 @@ local plugins = {
     end,
   },
   
-  -- 文件浏览器
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    event = "VeryLazy",
+    branch = "v2.x",
+    opts = {
+      -- add any options here
+    },
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    },
+  },
+
+  -- noice
   {
     "folke/noice.nvim",
     event = "VeryLazy",
