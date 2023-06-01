@@ -158,6 +158,21 @@ local plugins = {
         close_if_last_window = true,
         enable_git_status = true,
         enable_diagnostics = true,
+        default_component_configs = {
+          symbols = {
+            -- Change type
+            added     = "",
+            deleted   = "",
+            modified  = "",
+            renamed   = "",
+            -- Status type
+            untracked = "",
+            ignored   = "",
+            unstaged  = "󰰰",
+            staged    = "",
+            conflict  = "",
+          },
+        },
         filesystem = {
           hide_dotfiles = false,
           hide_gitignored = false,
