@@ -145,7 +145,6 @@ local plugins = {
   {
     "nvim-neo-tree/neo-tree.nvim",
     event = "VeryLazy",
-    branch = "v2.x",
     opts = {
       -- add any options here
     },
@@ -154,6 +153,18 @@ local plugins = {
       "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
       "MunifTanjim/nui.nvim",
     },
+    config = function()
+      require("neo-tree").setup({
+        close_if_last_window = true,
+        enable_git_status = true,
+        enable_diagnostics = true,
+        filesystem = {
+          hide_dotfiles = false,
+          hide_gitignored = false,
+          hide_hidden = false,
+        },
+      })
+    end,
   },
 
   -- noice
