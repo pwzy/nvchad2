@@ -67,23 +67,23 @@ end
 --             },
 --           }
 
-lspconfig.pyright.setup({
-  cmd = { 'pyright-langserver', '--stdio' },
-  filetypes = { 'python' },
-  -- root_dir = function(fname)
-  --   return lspconfig.util.root_pattern('pyproject.toml', 'setup.py', 'setup.cfg', 'requirements.txt', '.git')(fname)
-  --     or lspconfig.util.path.dirname(fname)
-  -- end,
-  settings = {
-    python = {
-      analysis = {
-        autoSearchPaths = true,
-        diagnosticMode = "workspace",
-        useLibraryCodeForTypes = true,
-        -- extra setting for pwzy, can be found in https://microsoft.github.io/pyright/#/settings
-        -- typeCheckingMode = 'off',
-        reportUnusedImport = 'none',
-      },
-    },
-  },
-})
+-- lspconfig.pyright.setup({
+--   cmd = { 'pyright-langserver', '--stdio' },
+--   filetypes = { 'python' },
+--   -- root_dir = function(fname)
+--   --   return lspconfig.util.root_pattern('pyproject.toml', 'setup.py', 'setup.cfg', 'requirements.txt', '.git')(fname)
+--   --     or lspconfig.util.path.dirname(fname)
+--   -- end,
+--   settings = {
+--     python = {
+--       analysis = {
+--         autoSearchPaths = true,
+--         diagnosticMode = "workspace",
+--         useLibraryCodeForTypes = true,
+--         -- extra setting for pwzy, can be found in https://microsoft.github.io/pyright/#/settings
+--         -- typeCheckingMode = 'off',
+--         reportUnusedImport = 'none',
+--       },
+--     },
+--   },
+-- })
