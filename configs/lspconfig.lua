@@ -13,6 +13,18 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+-- Setting for lsp diagnostic 设置不显示诊断信息
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+ vim.lsp.diagnostic.on_publish_diagnostics, {
+   -- Enable underline, use default values
+   underline = false,
+   -- Enable virtual text, override spacing to 4
+   virtual_text = false,
+   -- Disable a feature
+   signs = false,
+ }
+)
+
 -- 
 -- lspconfig.pyright.setup { blabla}
 -- setting from https://github.com/LoneExile/nvim/blob/fc4cc0386b563b439bc993b81bc987dc30b0331d/lua/LoneExile/lsp/servers/pyright.lua#L5
