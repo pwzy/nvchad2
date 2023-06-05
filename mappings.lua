@@ -15,7 +15,7 @@ M.general = {
 
     -- mapping for pwzy
     --
-    ["<leader>ss"] = { "<cmd> w <CR>", "Save file", opts = { nowait = true } },
+    ["<leader>s"] = { "<cmd> w <CR>", "Save file", opts = { nowait = true } },
 
     ["<leader>e"] = { "<cmd> NeoTreeFocusToggle <CR>", "Toggle neo-tree", opts = { nowait = true } },
     -- ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "NnnExplorer", opts = { nowait = true } },
