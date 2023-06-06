@@ -46,7 +46,7 @@ M.dap = {
 M.dapui = {
 
   n = {
-    ['<M-k>'] = {
+    ["<leader>k"] = {
       function()
         require("dapui").eval()
       end,
@@ -58,7 +58,7 @@ M.dapui = {
   },
 
   v = {
-    ['<M-k>'] = {
+    ["<leader>k"] = {
       function()
         require("dapui").eval()
       end,
