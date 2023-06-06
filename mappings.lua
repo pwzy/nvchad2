@@ -52,6 +52,9 @@ M.dapui = {
       end,
       "Eval expression in normal mode"
     },
+    
+    -- Toggle DapUI
+    ["<leader>du"] = { "<cmd> lua require('dapui').toggle() <CR>", "Toggle DapUI", opts = { nowait = true } },
   },
 
   v = {
