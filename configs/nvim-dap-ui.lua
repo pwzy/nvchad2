@@ -43,7 +43,7 @@ require("dapui").setup({
           id = "watches",
           size = 0.25
         } },
-      position = "left",
+      position = "right",
       size = 40
     }, {
       elements = { {
@@ -54,7 +54,7 @@ require("dapui").setup({
           size = 0.5
         } },
       position = "bottom",
-      size = 10
+      size = 15
     } },
   mappings = {
     edit = "e",
