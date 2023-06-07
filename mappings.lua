@@ -6,6 +6,8 @@ M.disabled = {
   n = {
     -- Disable default cycle through buffers
     ["<tab>"] = "",
+    -- Disable nvimtree keymap 
+    ["<C-n>"] = "",
   }
 }
 
