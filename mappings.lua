@@ -56,7 +56,7 @@ M.dapui = {
     },
     
     -- Toggle DapUI
-    ["<leader>dd"] = { "<cmd> lua require('dapui').toggle() <CR>", "Toggle DapUI", opts = { nowait = true } },
+    ["<leader>dd"] = { "<cmd> lua require('dapui').toggle({reset = true}) <CR>", "Toggle DapUI", opts = { nowait = true } },
   },
 
   v = {
