@@ -43,7 +43,7 @@ require("dapui").setup({
           id = "watches",
           size = 0.25
         } },
-      position = "right",
+      position = "left",
       size = 40
     }, {
       elements = { {
