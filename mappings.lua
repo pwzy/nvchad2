@@ -19,7 +19,7 @@ M.general = {
     --
     ["<leader>s"] = { "<cmd> w <CR>", "Save file", opts = { nowait = true } },
 
-    ["<leader>e"] = { "<cmd> NeoTreeFocusToggle <CR>", "Toggle neo-tree", opts = { nowait = true } },
+    ["<leader>e"] = { "<cmd> Neotree toggle <CR>", "Toggle neo-tree", opts = { nowait = true } },
     -- ["<leader>e"] = { "<cmd> NnnExplorer <CR>", "NnnExplorer", opts = { nowait = true } },
     -- Vista
     ["<leader>tg"] = { ":Vista!! <CR>", "Toggle vista view window", opts = { nowait = true } },
